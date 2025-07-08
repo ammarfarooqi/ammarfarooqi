@@ -41,3 +41,7 @@ Some of the technologies I specialize in include:
 I'm always looking for opportunities to collaborate on projects that challenge the status quo and push technological boundaries. If you're interested in partnering up, feel free to reach out through any of the channels listed above.
 
 Thank you for visiting my repository. Let's build something remarkable together.
+
+## Interactive Career Roadmap
+
+Open `index.html` in a modern browser to explore a 3D timeline of my professional journey. The demo uses ES modules loaded from the Three.js CDN and highlights key milestones from university to my current role as Backend Lead.
