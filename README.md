@@ -44,4 +44,4 @@ Thank you for visiting my repository. Let's build something remarkable together.
 
 ## Interactive Career Roadmap
 
-Open `index.html` in a modern browser to explore a 3D timeline of my professional journey. The demo uses ES modules loaded from the Three.js CDN and highlights key milestones from university to my current role as Backend Lead.
+Open `index.html` in a modern browser to explore a 3D timeline of my professional journey. The demo loads Three.js and OrbitControls directly from the CDN and highlights key milestones from university to my current role as Backend Lead.

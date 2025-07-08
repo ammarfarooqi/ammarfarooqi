@@ -1,6 +1,3 @@
-import * as THREE from 'https://unpkg.com/three@0.157.0/build/three.module.js';
-import { OrbitControls } from 'https://unpkg.com/three@0.157.0/examples/jsm/controls/OrbitControls.js';
-
 const milestones = [
   { label: 'COMSATS University (2016 - 2020)', position: 0 },
   { label: 'Accedo: Technical Support Engineer (Mar 2022 - Sept 2022)', position: -5 },
@@ -19,7 +16,7 @@ const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-const controls = new OrbitControls(camera, renderer.domElement);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 
 const roadGeometry = new THREE.BoxGeometry(0.5, 0.1, 25);
